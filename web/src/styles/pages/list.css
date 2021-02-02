@@ -1,0 +1,123 @@
+/* ==table==  */
+
+.table-container{
+    display: block;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.table-container table{
+    margin-top: 20px;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table-container thead tr th{
+    text-align: left;
+}
+
+td,th{
+    padding: 16px;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+th{
+    text-transform: uppercase;
+    color: #777;
+    font-size:14px;
+}
+
+tbody tr:last-child td{
+    border-bottom: none;
+}
+
+tbody tr td:first-child{
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    align-items: center;
+    padding: 18px;
+
+}
+
+tbody tr td:first-child span{
+    width: 48px;
+    height: 48px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 3px 1px 6px -4px black;
+    border: 2px solid white
+}
+
+tbody tr td:last-child a{
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.table-container a:first-child{
+    background-color: var(--primary-color);
+    padding: 8px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 14px;
+    display: inline-block;
+
+
+} 
+
+.table-container thead tr th:last-child,
+td:last-child {
+    text-align: center;
+}
+
+
+/* === busca === */
+
+#divBusca{
+   
+    background-color: #E0EEEE;
+    border: solid 2px var(--primary-color);
+    border-radius: 10px;
+    width: 235px;
+    height: 32px;
+    display: inline-flex;
+    margin-left: 48px;
+
+  }
+  
+  #txtBusca{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 14px;
+    border: none;
+    height: 34px;
+    width: 156px;
+
+  }
+  
+  #btnBusca{
+    cursor: pointer;
+    background-color: var(--primary-color);
+    padding: 6px 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    /* border-radius: 10px; */
+    border-radius: 0 9px 9px 0px;
+    /* margin-bottom: 10px; */
+    margin-left: 21px;
+    display: inline-block;
+    height: 33px;
+     /* margin-top: 0.1px; */
+  }

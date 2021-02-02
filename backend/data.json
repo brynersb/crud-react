@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "YUL BRYNER",
+    "age": "32",
+    "cpf": "014.535.474-10",
+    "phone": "81 99718-6058",
+    "email": "brynnersb@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "fulano teste",
+    "age": "33",
+    "cpf": "123.456.789-10",
+    "phone": "81 99718-0000",
+    "email": "fulano@gmail.com"
+  },
+  {
+    "id": 3,
+    "name": "teste",
+    "age": "123",
+    "cpf": "12341231",
+    "phone": "818181818",
+    "email": "asdasd@asdasd"
+  },
+  {
+    "id": 4,
+    "name": "teste",
+    "age": "123",
+    "cpf": "12341231",
+    "phone": "818181818",
+    "email": "asdasd@asdasd"
+  }
+]
