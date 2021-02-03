@@ -14,7 +14,7 @@ exports.show = function (req, res) {
 
     const { id } = req.params
 
-    const foundCliente = data.clientes.find(function (cliente) {
+    const foundCliente = data.find(function (cliente) {
         return cliente.id == id
     })
 
@@ -27,15 +27,15 @@ exports.show = function (req, res) {
 //post
 exports.post = function (req, res) {
 
-    const keys = Object.keys(req.body)
+    // const keys = Object.keys(req.body)
 
-    for (key of keys) {
+    // for (key of keys) {
 
-        if (req.body[key] == "") {
-            return res.send("Preencha todos os campos!!!")
-        }
+    //     if (req.body[key] == "") {
+    //         return res.send("Preencha todos os campos!!!")
+    //     }
 
-    }
+    // }
 
     let { name, age, cpf, phone, email} = req.body
     

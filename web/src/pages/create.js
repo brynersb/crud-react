@@ -44,21 +44,21 @@ export default function Create() {
 
   return (
 
-    <Form  onSubmit={handleSubmit} className="card">
+    <Form  ref={formRef} onSubmit={handleSubmit} className="card" >
 
       <section className="details">
 
         <div className="item">
           <div>Nome do Cliente</div>
           <div>
-            <Input name="name" type="text" placeholder="Insira o nome completo" />
+            <Input name="name"  placeholder="Insira o nome completo"/>
           </div>
         </div>
 
         <div className="item">
           <div>idade</div>
           <div>
-            <Input name="age" type="number" placeholder="Insira a idade" />
+            <Input name="age" type="number" placeholder="Insira a idade"/>
           </div>
         </div>
 
