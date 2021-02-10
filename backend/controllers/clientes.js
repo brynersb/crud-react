@@ -56,10 +56,10 @@ exports.post = function (req, res) {
         email,
     })
 
+    console.log(data)
+    
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function (err) {
-
-        console.log(data)
-
+      
         if (err) {
 
             return res.send("erro ao escrever dados!")

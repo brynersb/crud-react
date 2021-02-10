@@ -38,5 +38,13 @@
     "cpf": "32",
     "phone": "32",
     "email": "32"
+  },
+  {
+    "id": 6,
+    "name": "bryner",
+    "age": "32",
+    "cpf": "01453547410",
+    "phone": "818181818",
+    "email": "bryner@gmail.com"
   }
 ]
