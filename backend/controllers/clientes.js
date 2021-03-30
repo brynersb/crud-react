@@ -37,6 +37,8 @@ exports.post = function (req, res) {
 
     // }
 
+    console.log(req.body)
+
     let { name, age, cpf, phone, email} = req.body
     
     let id = 1
@@ -56,7 +58,7 @@ exports.post = function (req, res) {
         email,
     })
 
-    console.log(data)
+    // console.log(data)
     
     fs.writeFile("data.json", JSON.stringify(data, null, 2), function (err) {
       
@@ -67,6 +69,4 @@ exports.post = function (req, res) {
 
         return res.redirect("/clientes")
     })
-
-    // return res.send(req.body)
 }

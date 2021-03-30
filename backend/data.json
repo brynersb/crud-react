@@ -25,22 +25,6 @@
   },
   {
     "id": 4,
-    "name": "teste",
-    "age": "123",
-    "cpf": "12341231",
-    "phone": "818181818",
-    "email": "asdasd@asdasd"
-  },
-  {
-    "id": 5,
-    "name": "bryner",
-    "age": "123",
-    "cpf": "32",
-    "phone": "32",
-    "email": "32"
-  },
-  {
-    "id": 6,
     "name": "bryner",
     "age": "32",
     "cpf": "01453547410",
